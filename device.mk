@@ -15,5 +15,13 @@ LOCAL_PATH := device/samsung/j5lte
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+#GAPPS config
+GAPPS_VARIANT := pico
+GAPPS_PRODUCT_PACKAGES += Youtube
+GAPPS_PRODUCT_PACKAGES += GoogleDialer
+GAPPS_PRODUCT_PACKAGES += PixelLauncher 
+GAPPS_PRODUCT_PACKAGES += Wallpapers
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
