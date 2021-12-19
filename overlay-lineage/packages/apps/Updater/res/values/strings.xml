@@ -16,6 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-	<string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/daviiid99/J5-OTA-Updates/j5lte/updates.json</string>
+	<string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/Galaxy-J5-Unofficial-LineageOS/OTA-Updates/lineage-19.0/j5lte.json</string>
 
 </resources>
